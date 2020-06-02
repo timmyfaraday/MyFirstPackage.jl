@@ -1,0 +1,13 @@
+name = "MyFirstPackage"
+uuid = "6b533b98-189e-476a-8ac5-98c883df8147"
+authors = ["Tom Van Acker", "Hakan Ergun"]
+version = "0.1.0"
+
+[compat]
+julia = "1"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]
